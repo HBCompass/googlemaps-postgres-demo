@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block head %}
+
+
+{% endblock %}
+
+
+{% block body %}
+    <div id="bear-map"></div>
+
+
+
+    <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuC4uFaQWNCsbPanWNqg9RuyRyt_jarqg&callback=initMap">
+        </script>
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="/static/mapstyles.js"></script>
+
+        <script src="/static/bears.js"></script>
+
+{% endblock %}
+
